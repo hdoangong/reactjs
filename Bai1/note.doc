@@ -1,0 +1,10 @@
+Bài 2:Cài đặt môi trường
+    cài vào trình duyệt của bạn: react deverloper tool
+    cài nodejs (dùng để lập trính server)
+        cú pháp dùng để cài các package: npm intall [package name] --save
+    cài subline text3
+Bài 3:khởi tạo project
+    - npm install -g create-react-app (-g để gọi được ở mọi nơi)// chỉ làm 1 lần
+    - tạo mới ứng dụng: create-react-app tên_project
+    - cd vào project npm start
+    - học đổi port: "start": "set port=4200 && react-scripts start"
