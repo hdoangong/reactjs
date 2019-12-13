@@ -8,3 +8,11 @@ Bài 3:khởi tạo project
     - tạo mới ứng dụng: create-react-app tên_project
     - cd vào project npm start
     - học đổi port: "start": "set port=4200 && react-scripts start"
+    - cấu trúc thư mục:
+        + public
+        + scr
+        + package.json
+Bài 4: Component
+    - cài đặt bootstrap: tải bootstrap
+                        tải jquery (copy vào js của bootstrap)
+        copy vào public của project
