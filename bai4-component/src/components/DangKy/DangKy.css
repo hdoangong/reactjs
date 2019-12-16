@@ -1,9 +1,10 @@
 body {  
-    padding-top: 0px;
+    padding-top: 10px;
     }
-    .form-control { 
+.form-control { 
     margin-bottom: 10px;
+    
     }
-    .login-screen-bg {  
-    background-color: #EFEFEF;
+.login-screen-bg {  
+    background-color: rgb(207, 95, 207);
     }

@@ -4,17 +4,16 @@ class DangKy extends Component{
     render(){
         return(
             <div class="container">
-                <h1 class="text-center">Cách thiết kế giao diện trang đăng ký bằng Bootstrap</h1> 
                 <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-4 well well-sm col-md-offset-4">
-                        <legend><a href="http://hocwebgiare.com/"><i class="glyphicon glyphicon-globe"></i></a> Đăng ký thành viên!</legend> 
-                        <form action="http://hocwebgiare.com" method="post" class="form" role="form">
+                    <div class="col-xs-20 col-sm-20 col-md-4 well well-sm col-md-offset-4">
+                        <legend>
+                            <image>hình</image>
+                            Đăng ký thành viên!
+                        </legend> 
+                        <form action="link" method="post" class="form" role="form">
                             <div class="row">
-                                <div class="col-xs-6 col-md-6">
-                                    <input class="form-control" name="firstname" placeholder="Họ" required="" autofocus="" type="text"/>
-                                    <div class="col-xs-6 col-md-6"> <input class="form-control" name="lastname" placeholder="Tên" required="" type="text"/> 
-                                    </div> 
-                                </div> 
+                                <input class="form-control" name="firstname" placeholder="Họ" required="" autofocus="" type="text"/>                                    
+                                <input class="form-control" name="lastname" placeholder="Tên" required="" type="text"/> 
                                 <input class="form-control" name="youremail" placeholder="Email" type="email"/> 
                                 <input class="form-control" name="password" placeholder="Mật khẩu" type="password"/> 
                                 <input class="form-control" name="retypepassword" placeholder="Nhập lại mật khẩu" type="password"/> 
@@ -49,10 +48,10 @@ class DangKy extends Component{
                         </form>
 
                     </div>
-
                 </div>
             </div>
         );
     };
+    bs
 }
 export default DangKy;
