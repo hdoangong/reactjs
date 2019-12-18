@@ -1,11 +1,39 @@
 import React,{ Component } from "react";
 
 class Courses extends Component{
+    // để dùng được thằng props trong hàm phải khai báo constructor
+    // constructor(props){
+    //     super(props);
+    //     this.tenham=this.tenham(this.props);
+    // }
+    tenham(a){
+        alert(a);
+        // alert(this.props.name);
+    }
+    onclick(){
+        alert("xuất");
+    }
+    onclick1(thamso){
+        alert(thamso);
+    }
+    
     hienThiFree(){
         const temp=this.props.free;
         if(temp===true)
             return (
-                <button>hiển thị</button>
+              
+              <div class="panel panel-default">
+                    <div class="btn-group">
+                          
+                          <button onClick={this.onclick} type="button" class="btn btn-warning">view 1</button>
+                          <button onClick={()=> this.onclick1("btn 2")} type="button" class="btn btn-danger">view 2</button>
+                          <button onClick={()=>this.tenham(this.props.name)} type="button" class="btn btn-success">view 3</button>
+                          
+                    </div>
+                   
+              </div>
+                
+              
             );
 
         else
