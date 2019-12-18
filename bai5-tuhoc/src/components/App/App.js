@@ -10,10 +10,10 @@ class App extends Component {
       {name:'Lý', free : true, desc:'List group item heading'},
       {name:'Hóa', free : false, desc:'abc'}
     ]
-    console.log(arrs);
+    //console.log(arrs);
 
     const elmCourses=arrs.map(function(arr,id){
-      console.log(arr.name,arr.free,arr.desc);
+    //  console.log(arr.name,arr.free,arr.desc);
       return(
         <Courses key={id} name={arr.name} free= {arr.free}>{arr.desc}</Courses>
       );
